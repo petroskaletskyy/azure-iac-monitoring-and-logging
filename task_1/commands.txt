@@ -1,0 +1,16 @@
+terraform init 
+terraform fmt  
+terraform validate
+terraform plan  
+terraform apply
+
+terraform output storage_account_name
+terraform output storage_account_key
+
+terraform init migrate-state
+
+# Test lock - in two terminal run command
+terraform apply -auto-approve
+
+terraform destroy
+

@@ -13,6 +13,15 @@
    - Implement basic state locking using Azure blob storage.
    - Destroy the storage account (after confirming the state behavior).
 
+![img](/screenshots/1_1.png)
+![img](/screenshots/1_2.png)
+![img](/screenshots/1_3.png)
+![img](/screenshots/1_4.png)
+![img](/screenshots/1_5.png)
+![img](/screenshots/1_6.png)
+![img](/screenshots/1_7.png)
+![img](/screenshots/1_8.png)
+
 ## Practical Task 2: Deploy an Azure Virtual Machine with a Custom Network and Security Rules
 
 Extend the Terraform configuration to deploy:
