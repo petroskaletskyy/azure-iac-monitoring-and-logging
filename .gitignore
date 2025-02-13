@@ -1,5 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
+**/.ssh/*
 
 # .tfstate files
 *.tfstate
@@ -36,5 +37,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# SSh keys
+*.pem
+*.pub
 
 .DS_Store
