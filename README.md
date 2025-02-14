@@ -40,6 +40,11 @@ Extend the Terraform configuration to deploy:
    - That the Nginx web page is accessible via the VM's public IP.
 8. Destroy the infrastructure when complete.
 
+![img](/screenshots/2_1.png)
+![img](/screenshots/2_2.png)
+![img](/screenshots/2_3.png)
+![img](/screenshots/2_4.png)
+
 ## Practical Task 3: Implement a Scalable Infrastructure with Load Balancer and Auto Scaling
 
 Extend the Terraform configuration to create a highly available infrastructure by deploying:
@@ -58,6 +63,16 @@ Extend the Terraform configuration to create a highly available infrastructure b
    - Auto-scaling works when CPU usage spikes.
 6. Implement Terraform modules to modularize networking, compute, and security configurations.
 7. Destroy the infrastructure when testing is complete.
+
+![img](/screenshots/3_1.png)
+![img](/screenshots/3_2.png)
+![img](/screenshots/3_3.png)
+![img](/screenshots/3_4.png)
+![img](/screenshots/3_5.png)
+![img](/screenshots/3_6.png)
+![img](/screenshots/3_7.png)
+![img](/screenshots/3_8.png)
+![img](/screenshots/3_9.png)
 
 ## Practical Task 4: Install and Configure Ansible for Azure
 
