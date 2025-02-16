@@ -1,0 +1,12 @@
+---
+resource_group: "ansible-vm-rg"
+location: "eastus"
+vnet_name: "ansible-vnet"
+subnet_name: "ansible-subnet"
+nsg_name: "ansible-nsg"
+vm_name: "ansible-vm"
+admin_username: "azureuser"
+vm_size: "Standard_B1s"
+ssh_public_key: "~/.ssh/azure_vm.pub"
+ssh_private_key: "~/.ssh/azure_vm"
+allowed_ssh_ip: "{{ lookup('env', 'MY_PUBLIC_IP') }}"

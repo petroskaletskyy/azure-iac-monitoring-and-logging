@@ -89,6 +89,9 @@ Extend the Terraform configuration to create a highly available infrastructure b
    - Prints the result as output.
    - Execute the playbook and verify the output.
 
+![img](/screenshots/4_1.png)
+![img](/screenshots/4_2.png)
+
 ## Practical Task 5: Deploy an Azure Virtual Machine with Ansible
 
 Extend the Ansible configuration to deploy an Azure Virtual Machine (VM):
@@ -107,6 +110,11 @@ Extend the Ansible configuration to deploy an Azure Virtual Machine (VM):
    - The VM is successfully deployed in Azure.
    - Nginx is running and the custom webpage is accessible via the public IP.
 3. Implement idempotency by running the playbook multiple times and ensuring no unintended changes occur.
+
+![img](/screenshots/5_1.png)
+![img](/screenshots/5_2.png)
+![img](/screenshots/5_3.png)
+![img](/screenshots/5_4.png)
 
 ## Practical Task 6: Deploy a Scalable Azure Infrastructure with Ansible and Dynamic Inventory (optional)
 
