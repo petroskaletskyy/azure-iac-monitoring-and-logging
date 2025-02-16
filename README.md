@@ -172,7 +172,6 @@ Extend the ARM template to define an Azure Storage Account with:
 ![img](/screenshots/8_4.png)
 ![img](/screenshots/8_5.png)
 
-
 ## Practical Task 9: Terraform: Deploy a Production-Ready AKS Cluster with GitOps & Secret Management & Monitoring
 
 1. Deploy an AKS cluster with Terraform, ensuring production readiness.
@@ -201,6 +200,15 @@ Create an ARM template that deploys:
    - The public IP is assigned correctly.
 7. Modify the template to enable boot diagnostics and redeploy.
 8. Delete the VM and associated resources after verification.
+
+![img](/screenshots/10_1.png)
+![img](/screenshots/10_2.png)
+![img](/screenshots/10_3.png)
+![img](/screenshots/10_4.png)
+![img](/screenshots/10_5.png)
+![img](/screenshots/10_6.png)
+![img](/screenshots/10_7.png)
+![img](/screenshots/10_8.png)
 
 ## Azure Bicep Tasks
 
