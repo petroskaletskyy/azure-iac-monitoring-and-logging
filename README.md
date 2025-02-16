@@ -166,6 +166,13 @@ Extend the ARM template to define an Azure Storage Account with:
 7. Modify the template to enable Blob soft delete, then redeploy it.
 8. Delete the storage account when done.
 
+![img](/screenshots/8_1.png)
+![img](/screenshots/8_2.png)
+![img](/screenshots/8_3.png)
+![img](/screenshots/8_4.png)
+![img](/screenshots/8_5.png)
+
+
 ## Practical Task 9: Terraform: Deploy a Production-Ready AKS Cluster with GitOps & Secret Management & Monitoring
 
 1. Deploy an AKS cluster with Terraform, ensuring production readiness.
