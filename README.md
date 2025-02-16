@@ -91,6 +91,7 @@ Extend the Terraform configuration to create a highly available infrastructure b
 
 ![img](/screenshots/4_1.png)
 ![img](/screenshots/4_2.png)
+![img](/screenshots/4_3.png)
 
 ## Practical Task 5: Deploy an Azure Virtual Machine with Ansible
 
@@ -144,6 +145,13 @@ Extend the Ansible configuration to deploy a highly available infrastructure wit
 3. Verify the deployment in the Azure Portal or using the Azure CLI (az group list).
 4. Modify the template to add tags to the resource group and redeploy it.
 5. Remove the resource group after verification.
+
+![img](/screenshots/7_1.png)
+![img](/screenshots/7_2.png)
+![img](/screenshots/7_3.png)
+![img](/screenshots/7_4.png)
+![img](/screenshots/7_5.png)
+![img](/screenshots/7_6.png)
 
 ## Practical Task 8: Deploy an Azure Storage Account Using an ARM Template
 

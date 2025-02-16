@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-08-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceGroupLocation": {
+            "type": "string",
+            "defaultValue": "North Europe",
+            "metadata": {
+                "desription": "Location of the resource group"
+            }
+        },
+        "resourceGroupName": {
+            "type": "string",
+            "defaultValue": "ARMResourceGroup",
+            "metadata": {
+                "description": "Name of the resource group"
+            }
+        },
+        "tags": {
+            "type": "object",
+            "defaultValue": {
+                "enviroment": "development",
+                "project": "ARMDemo",
+                "owner": "DevOps Team"
+            },
+            "metadata": {
+                "description": "Tags for Resource Group"
+            }
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2022-09-01",
+            "name": "[parameters('resourceGroupName')]",
+            "location": "[parameters('resourceGroupLocation')]",
+            "tags": "[parameters('tags')]",
+            "properties": {}
+        }
+    ],
+    "outputs": {}
+}
