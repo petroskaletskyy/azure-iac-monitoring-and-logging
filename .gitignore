@@ -42,4 +42,7 @@ terraform.rc
 *.pem
 *.pub
 
+# Ansible credentials
+vars.yml
+
 .DS_Store

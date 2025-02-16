@@ -1,0 +1,20 @@
+---
+- name: Get Azure Resource Groups
+  hosts: azure
+  gather_facts: no
+  
+  vars_files:
+    - vars.yml
+
+  tasks:
+    - name: Get resource groups
+      azure.azcollection.azure_rm_resourcegroup_info:
+        client_id: "{{ azure_client_id }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        secret: "{{ azure_secret }}"
+      register: resource_groups
+
+    - name: Print resource groups
+      debug:
+        var: resource_groups.resourcegroups      

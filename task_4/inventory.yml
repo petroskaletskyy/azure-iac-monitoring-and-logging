@@ -1,0 +1,4 @@
+all:
+  hosts:
+    azure:
+      ansible_connection: local
