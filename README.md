@@ -225,6 +225,12 @@ Take an existing ARM Template (e.g., from Task 8) and convert it to Azure Bicep 
 4. Validate the deployment and compare it to the original ARM deployment.
 5. Delete the storage account after testing.
 
+![img](/screenshots/10_1_1.png)
+![img](/screenshots/10_1_2.png)
+![img](/screenshots/10_1_3.png)
+![img](/screenshots/10_1_4.png)
+![img](/screenshots/10_1_5.png)
+
 ## Practical Task 11: Deploy a Multi-Resource Azure Infrastructure Using Bicep
 
 Create an Azure Bicep file that deploys:
