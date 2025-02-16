@@ -1,6 +1,6 @@
 ---
 - name: Get Azure Resource Groups
-  hosts: azure
+  hosts: localhost
   gather_facts: no
   
   vars_files:
