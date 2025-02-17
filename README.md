@@ -286,6 +286,17 @@ Extend the Bicep configuration to include:
 5. Verify the alert trigger by running a CPU-intensive process on the VM.
 6. Delete the alert rule after testing.
 
+![img](/screenshots/13_1.png)
+![img](/screenshots/13_2.png)
+![img](/screenshots/13_3.png)
+![img](/screenshots/13_4.png)
+![img](/screenshots/13_5.png)
+![img](/screenshots/13_6.png)
+![img](/screenshots/13_7.png)
+![img](/screenshots/13_8.png)
+![img](/screenshots/13_9.png)
+![img](/screenshots/13_10.png)
+
 ## Practical Task 14: Create a Custom Dashboard in Azure Monitor (optional)
 
 1. Navigate to Azure Monitor Dashboards.
