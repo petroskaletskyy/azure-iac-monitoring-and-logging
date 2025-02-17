@@ -248,6 +248,14 @@ Create an Azure Bicep file that deploys:
    - Modify the configuration to increase VM size and redeploy.
    - Destroy the infrastructure after verification.
 
+![img](/screenshots/11_1.png)
+![img](/screenshots/11_2.png)
+![img](/screenshots/11_3.png)
+![img](/screenshots/11_4.png)
+![img](/screenshots/11_5.png)
+![img](/screenshots/11_6.png)
+![img](/screenshots/11_7.png)
+
 ## Practical Task 12: Implement Parameterization and Secrets Management in Bicep (optional)
 
 Extend the Bicep configuration to include:
